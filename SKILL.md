@@ -1,6 +1,6 @@
 ---
 name: openclaw-groq-orpheus-tts
-description: Lightning-fast FREE Arabic (Saudi) & English AI voices. Generous 100 req/day limit. Cloud-powered (runs on any device). Professional generative TTS using Groq Orpheus API.
+description: Fast and FREE Arabic (Saudi) & English AI voices. Generous 100 requests per day via Groq API. Professional, high-quality generative TTS using Orpheus models.
 metadata: {"openclaw":{"emoji":"🎙️","requires":{"bins":["curl","ffmpeg"],"env":["GROQ_API_KEY"]},"primaryEnv":"GROQ_API_KEY"}}
 ---
 
