@@ -1,6 +1,6 @@
 ---
 name: openclaw-groq-orpheus-tts
-description: High-quality Arabic (Saudi dialect) and English Text-to-Speech using the ultra-fast Groq API (Orpheus models).
+description: Ultra-fast FREE Arabic (Saudi) & English AI voices. 100% Free tier, high-quality generative TTS using Groq Orpheus.
 metadata: {"openclaw":{"emoji":"🎙️","requires":{"bins":["curl","ffmpeg"],"env":["GROQ_API_KEY"]},"primaryEnv":"GROQ_API_KEY"}}
 ---
 
