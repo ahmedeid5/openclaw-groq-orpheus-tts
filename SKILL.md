@@ -42,17 +42,17 @@ You can ask the assistant to say something or generate an audio file.
 
 ```bash
 # General usage
-./groq-tts.sh "Text" output.mp3 [voice] [lang]
+python3 groq-tts.py "Text" output.mp3 [voice] [lang]
 
 # Examples
-./groq-tts.sh "أهلا بك" welcome.mp3 fahad ar
-./groq-tts.sh "Hello world" hello.mp3 troy en
+python3 groq-tts.py "أهلا بك" welcome.mp3 fahad ar
+python3 groq-tts.py "Hello world" hello.mp3 troy en
 ```
 
 ## Chat Responses
 
 When you want the assistant to reply in voice, use:
 ```bash
-./groq-tts.sh "Your message" /tmp/reply.mp3 fahad ar
+python3 groq-tts.py "Your message" /tmp/reply.mp3 fahad ar
 # Then include MEDIA:/tmp/reply.mp3 in the response.
 ```
